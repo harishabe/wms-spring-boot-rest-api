@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan({"com.wms"})
-@EntityScan("com.delivery.beans")
+@EntityScan("com.wms")
 public class App 
 {
     public static void main( String[] args )
