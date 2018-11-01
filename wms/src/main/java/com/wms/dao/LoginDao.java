@@ -10,4 +10,6 @@ import com.wms.beans.UserActionStatus;
 @Repository
 public interface LoginDao {
 	public UserActionStatus signUp(User user);
+
+	public UserActionStatus login(User user);
 }

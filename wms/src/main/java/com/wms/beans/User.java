@@ -1,9 +1,14 @@
 package com.wms.beans;
 
+import java.io.Serializable;
+
 import org.springframework.stereotype.Component;
 
 @Component
-public class User {
+public class User implements Serializable{
+
+	private static final long serialVersionUID = -7788619177798333712L;
+	
 	private int id;
 	private String name;
 	private String email;
@@ -41,5 +46,11 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", email=" + email + ", mobile=" + mobile + ", password="
+				+ password + "]";
+	}
 
+	
 }

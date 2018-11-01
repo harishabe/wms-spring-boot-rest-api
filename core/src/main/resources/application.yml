@@ -1,5 +1,5 @@
 # The database connection URL
 datasource:
-      url=jdbc:mysql://117.247.3.155:3306/wtms_new?useSSL=false
-      username=srhramsanjay
-      password=ramsan@123
+ url: "jdbc:mysql://117.247.3.155:3306/wtms_new?useSSL=false"
+ username: "srhramsanjay"
+ password: "ramsan@123"

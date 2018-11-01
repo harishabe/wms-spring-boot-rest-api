@@ -12,4 +12,6 @@ import com.wms.dao.LoginDao;
 public interface LoginService {	
 	public UserActionStatus signUp(User user);
 
+	public UserActionStatus login(User user);
+
 }

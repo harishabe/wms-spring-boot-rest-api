@@ -19,4 +19,9 @@ public class LoginServiceImpl implements LoginService {
 		return loginDao.signUp(user);
 	}
 
+	@Override
+	public UserActionStatus login(User user) {
+		return loginDao.login(user);
+	}
+
 }
